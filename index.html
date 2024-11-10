@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Website</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="grid-item header nav">
+            <p id="logo">MData <span>Com</span></p>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <div class="search">
+                    <input type="search" placeholder="search">
+                    <button>Search</button>
+                </div>
+                <button class="sign-in">Sign In</button>
+            </nav>
+        </header>
+        
+        <aside class="grid-item left-aside">
+            <nav class="course-nav">
+                <h3>Courses</h3>
+                <ul>
+                    <li><a href="#">Mathematics</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Language Arts</a></li>
+                </ul>
+            </nav>
+            <nav class="lesson-nav">
+                <h3>Quick Links to Lessons</h3>
+                <ul>
+                    <li><a href="#">Algebra Basics</a></li>
+                    <li><a href="#">Plant Biology</a></li>
+                    <li><a href="#">World War II</a></li>
+                </ul>
+            </nav>
+            <div class="resources">
+                <h3>Study Resources</h3>
+                <ul>
+                    <li><a href="#">PDF Handouts</a></li>
+                    <li><a href="#">Worksheets</a></li>
+                    <li><a href="#">Cheat Sheets</a></li>
+                </ul>
+            </div>
+            <div class="tools">
+                <h3>Interactive Tools</h3>
+                <ul>
+                    <li><a href="#">Math Calculator</a></li>
+                    <li><a href="#">Grammar Checker</a></li>
+                    <li><a href="#">Practice Quizzes</a></li>
+                </ul>
+            </div>
+            <div class="announcements">
+                <h3>Announcements</h3>
+                <p>Upcoming exams: December 15</p>
+                <p>New course available: Data Science</p>
+                <p>Assignment deadlines: November 30</p>
+            </div>
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:info@eduwebsite.com">info@eduwebsite.com</a></p>
+                <p>Office Hours: Mon-Fri, 9am - 5pm</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </aside>
+        
+        <main class="grid-item contentt">
+            <article class="lesson">
+                <h2>Lesson Title: The Pythagorean Theorem</h2>
+                <p>The Pythagorean Theorem is a fundamental principle in geometry, expressing the relationship between the sides of a right triangle...</p>
+                <img src="pythagorean-theorem.jpg" alt="Pythagorean Theorem">
+                <h3>Video Tutorial</h3>
+                <video controls>
+                    <source src="pythagorean-tutorial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Interactive Quiz</h3>
+                <form class="quiz">
+                    <p>1. What is the length of the hypotenuse in a right triangle with sides of length 3 and 4?</p>
+                    <input type="radio" name="question1" value="5"> 5<br>
+                    <input type="radio" name="question1" value="6"> 6<br>
+                    <input type="radio" name="question1" value="7"> 7<br>
+                    <button type="submit">Submit</button>
+                </form>
+                <h3>Downloadable Resources</h3>
+                <a href="worksheet.pdf" download>Download Worksheet</a>
+                <h3>Discussion</h3>
+                <p>Have questions or want to discuss this lesson? Join the discussion below:</p>
+                <textarea placeholder="Post your question or comment here..."></textarea>
+                <button>Post</button>
+            </article>
+        </main>
+        
+        <aside class="grid-item right-aside">
+            <div class="interactive-widgets">
+                <h3>Interactive Widgets</h3>
+                <ul>
+                    <li><a href="#">Math Calculator</a></li>
+                    <li><a href="#">Language Translator</a></li>
+                    <li><a href="#">Interactive Map</a></li>
+                </ul>
+            </div>
+            <div class="related-content">
+                <h3>Related Content</h3>
+                <ul>
+                    <li><a href="#">Algebra II Video</a></li>
+                    <li><a href="#">Photosynthesis Article</a></li>
+                    <li><a href="#">Ancient Civilizations Lecture</a></li>
+                </ul>
+            </div>
+            <div class="notices-reminders">
+                <h3>Notices & Reminders</h3>
+                <p>Assignment Due: Dec 15</p>
+                <p>Exam Schedule: Jan 10</p>
+                <p>Science Fair: Jan 20</p>
+            </div>
+            <div class="discussion-forums">
+                <h3>Discussion Forums</h3>
+                <ul>
+                    <li><a href="#">Math Forum</a></li>
+                    <li><a href="#">Science Forum</a></li>
+                    <li><a href="#">History Forum</a></li>
+                </ul>
+            </div>
+            <div class="progress-tracker">
+                <h3>Progress Tracker</h3>
+                <p>Course Completion: 50%</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="external-resources">
+                <h3>External Resources</h3>
+                <ul>
+                    <li><a href="#">Online Library</a></li>
+                    <li><a href="#">Research Database</a></li>
+                    <li><a href="#">Educational Websites</a></li>
+                </ul>
+            </div>
+            <div class="polls-surveys">
+                <h3>Polls & Surveys</h3>
+                <p>Which subject do you find most challenging?</p>
+                <form>
+                    <input type="radio" name="subject" value="Math"> Math<br>
+                    <input type="radio" name="subject" value="Science"> Science<br>
+                    <input type="radio" name="subject" value="History"> History<br>
+                    <input type="radio" name="subject" value="Language Arts"> Language Arts<br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="featured">
+                <h3>Featured Student</h3>
+                <p>Jane Smith</p>
+                <p>Top scorer in Mathematics</p>
+            </div>
+            <div class="study-tips">
+                <h3>Study Tips</h3>
+                <p>"Stay organized and manage your time effectively."</p>
+                <p>"Practice active reading and take notes."</p>
+            </div>
+        </aside>
+        
+        <footer class="grid-item footer">
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@eduwebsite.com">info@eduwebsite.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Education Lane, Knowledge City, KS 54321</p>
+            </div>
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Subscribe to our Newsletter</h3>
+                <input type="email" placeholder="Your email">
+                <button>Subscribe</button>
+            </div>
+            <div class="footer-section copyright">
+                <p>&copy; 2024 MData Com. All rights reserved.</p>
+            </div>
+        </footer>
+        
+    </div>
+</body>
+</html>
